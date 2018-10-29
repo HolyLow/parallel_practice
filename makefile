@@ -1,7 +1,8 @@
 CC = gcc
 CFLAGS = -lpthread
 DEPS = fio.h
-COBJ = saxpy.o
+# COBJ = saxpy.o
+COBJ = concat.o
 TARGET = main
 
 main: $(COBJ)
