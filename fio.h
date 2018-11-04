@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-ssize_t input_data(void* bufa, ssize_t counta, void* bufb, ssize_t countb) {}
+// ssize_t input_data(void* bufa, ssize_t counta, void* bufb, ssize_t countb) {}
+ssize_t input_data(void* buf, ssize_t count) {}
 ssize_t output_data(void* buf, ssize_t count) {}
 #endif // FIO_H_
